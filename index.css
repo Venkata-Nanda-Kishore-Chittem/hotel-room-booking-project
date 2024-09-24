@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url("./images/pexels-pixabay-258154.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.newClass {
+    font-size: 30px;
+}
+
+.row .col-12 .card {
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(13px);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.price {
+    font-size: 10px;
+}
+
+.additional {
+    font-size: 15px;
+}
+
+.fw-bold {
+    color: gold;
+    border: 2px solid gold;
+}
